@@ -1,0 +1,18 @@
+1. Pros and cons of the 256 bit word length in the EVM
+Cons: 
+- When the operation result doesn’t fit into 256 bits, the higher bits are just dropped, 
+which is known as overflow. This is a dangerous situation, as the operation may produce 
+a result that is mathematically incorrect.
+
+-Mainstream architectures nowadays are only 64-bit, EVM’s 256-bit words don’t map to hardware 
+words and thus have any way to be implemented as big integers, i.e. software-emulated arbitrary-width words.
+
+
+Pros:
+-For low-level programming languages, fixed-width overflowing data types is a natural 
+decision because they map 1:1 to underlying hardware words thus providing maximum performance.
+
+2. What would happen if the implementation of a precompiled contract varied between Ethereum clients?
+
+3. Do we need to validate beneficiary field in the Ethereum block?
+- No
