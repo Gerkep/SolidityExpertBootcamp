@@ -1,0 +1,1 @@
+1. Functions are public and anyone can call them.

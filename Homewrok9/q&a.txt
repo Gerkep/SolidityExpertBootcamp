@@ -1,0 +1,2 @@
+1. Negative numbers take more storage to be stored
+2. There is zero check added in solidity

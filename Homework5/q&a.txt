@@ -1,0 +1,4 @@
+1. It's overwriting free slots including memory pointer. 
+2. You could remove the setup of the memory pointe
+3. You can send some wei, that will cause it to revert.
+4. EXTCODE

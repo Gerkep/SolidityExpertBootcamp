@@ -5,5 +5,6 @@ Another contract can have a method which will call your contract (where the user
 A person or program that successfully identifies as another by falsifying data, to gain an illegitimate advantage.
 
 3. Person can know the return value of function ahead. Timestamp is not a good way to introduce randomness since it's known to everyone.
+Floating solidity version is used.
 
-4. One student can enter multiple times.
+4. One student can enter multiple times. Solidity version is not fixed. Starting number is never used.
